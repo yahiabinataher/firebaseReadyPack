@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleLogout = () => {
       logOut()
       .then((result) =>{
-        myToast("Logout Successful","success")
+        myToast("Logout Successful","successli")
         navigate("/")
       })
   }
